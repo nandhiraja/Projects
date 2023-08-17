@@ -1,8 +1,8 @@
-# NPETL
+'''NPETL
 NPETL Week 3 Programming Assignment (ANSWER) 2023
 
 
-1).Write a function expanding(l) that takes as input a list of integer l and returns True if the absolute difference between each adjacent pair of elements strictly increases.
+1).Write a function expanding(l) that takes as input a list of integer l and returns True if the absolute difference between each adjacent pair of elements strictly increases.'''
 
 
 def expanding(lst):
@@ -33,7 +33,7 @@ def expanding(lst):
    else:
       return False
 
-2) Write a Python function sumsquare(l) that takes a nonempty list of integers and returns a list [odd,even], where odd is the sum of squares all the odd numbers in l and even is the sum of squares of all the even numbers in l.
+'''2) Write a Python function sumsquare(l) that takes a nonempty list of integers and returns a list [odd,even], where odd is the sum of squares all the odd numbers in l and even is the sum of squares of all the even numbers in l.'''
 
 
 def sumsquare(l):
@@ -43,7 +43,7 @@ def sumsquare(l):
 
 
     
-3)A two dimensional matrix can be represented in Python row-wise, as a list of lists: each inner list represents one row of the matrix. For instance, the matrix
+'''3)A two dimensional matrix can be represented in Python row-wise, as a list of lists: each inner list represents one row of the matrix. For instance, the matrix'''
 
 
 
