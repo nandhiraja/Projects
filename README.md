@@ -6,17 +6,17 @@ NPETL Week 3 Programming Assignment (ANSWER) 2023
 
 
 def expanding(lst):
-  list1=[]
-  for i in range(len(lst)):
-    for j in range(i+1,len(lst)):
-      if lst[i]>lst[j]:
-        list1.append(lst[i]-lst[j])
-        break
-      elif lst[j]>lst[i]:
-        list1.append(lst[j]-lst[i])
-        break
-      else:
-        pass
+   list1=[]
+   for i in range(len(lst)):
+     for j in range(i+1,len(lst)):
+       if lst[i]>lst[j]:
+         list1.append(lst[i]-lst[j])
+         break
+       elif lst[j]>lst[i]:
+         list1.append(lst[j]-lst[i])
+         break
+       else:
+         pass
   flag=1
   a=0
   for k in list1:
@@ -36,10 +36,10 @@ def expanding(lst):
 2) Write a Python function sumsquare(l) that takes a nonempty list of integers and returns a list [odd,even], where odd is the sum of squares all the odd numbers in l and even is the sum of squares of all the even numbers in l.
 
 def sumsquare(l):
-    sum_odd = sum([num ** 2 for num in l if num % 2 != 0])
-    sum_even = sum([num ** 2 for num in l if num % 2 == 0])
-    
-    return [sum_odd, sum_even]
+  sum_odd = sum([num ** 2 for num in l if num % 2 != 0])
+  sum_even = sum([num ** 2 for num in l if num % 2 == 0])
+  return [sum_odd, sum_even]
+
 
     
 3)A two dimensional matrix can be represented in Python row-wise, as a list of lists: each inner list represents one row of the matrix. For instance, the matrix
