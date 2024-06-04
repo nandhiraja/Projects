@@ -1,4 +1,5 @@
 sklearn
+streamlit
 scipy==1.12.0
 numpy
 pandas
